@@ -19,7 +19,7 @@ const App = () => {
         <div>
             <Navbar collapseOnSelect expand="md" bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand href="#">
+                    <Navbar.Brand as={Link} to="/" className={"router-link"}>
                         <img src={require("./asset/mark/favicon-32x32.png").default}
                         style={{paddingRight: "10px"}}/>
                         Christina-Project</Navbar.Brand>

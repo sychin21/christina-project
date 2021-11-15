@@ -12,7 +12,7 @@ const PoemDetail = ({data}) => {
             <Container style={{paddingTop: "40px"}}>
 
                 <Card>
-                    <Card.Img variant="top" src={poemData?.poemImageSrc} style={{maxHeight: "350px"}}/>
+                    <Card.Img variant="top" src={poemData?.poemImageSrc} style={{maxHeight: "1000px"}}/>
                     <Card.Body>
                         <Card.Text style={{textAlign: "center"}}>
                             <h3>{poemData?.poemTitle}</h3>

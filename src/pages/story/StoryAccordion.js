@@ -17,12 +17,12 @@ const StoryAccordion = ({storyList}) => {
 
                                 {
                                     element.imageSrcList.length > 0 &&
-                                    <div style={{marginTop: "40px", textAlign:"center"}}>
+                                    <div style={{marginTop: "40px", marginBottom: "40px", textAlign:"center"}}>
                                         {
                                             element.imageSrcList?.map((e, k) => {
                                                 return (
                                                     <img key={k}
-                                                         src={e} style={{maxWidth:"50%", maxHeight:"400px"}}
+                                                         src={e} style={{maxWidth:"50%", maxHeight:"550px"}}
                                                          alt=""
                                                     />
                                                 )

@@ -15,7 +15,7 @@ const Main = () => {
                     />
 
                     <Carousel.Caption>
-                        <h3>First slide label</h3>
+                        <h1>Music Cafe</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
@@ -28,8 +28,8 @@ const Main = () => {
                     />
 
                     <Carousel.Caption>
-                        <h3>Second slide label</h3>
-                        <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                        <h1>Through the plan window</h1>
+                        <p>Garden of Blue Sky.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>
