@@ -9,7 +9,7 @@ const Story = ({data}) => {
 
     return (
         <div>
-            <Container style={{paddingTop: "30px"}}>
+            <Container style={{paddingTop: "35px", paddingBottom: "40px"}}>
                 <StoryAccordion storyList={storyList} />
             </Container>
         </div>

@@ -19,12 +19,12 @@ const Music = ({data}) => {
             {
                 modal && <MusicModal data={musicData} setModal={setModal}/>
             }
-            <Container style={{paddingTop:"30px"}}>
+            <Container style={{paddingTop: "35px", paddingBottom: "40px"}}>
                 <Row className="g-4">
                     {
                         musicList?.map((element, key) => {
                             return (
-                                <Col lg={3} md={4} sm={6}>
+                                <Col lg={4} md={6} sm={12}>
                                     <MusicCard key={key} data={element} setMusicData={setMusicData} setModal={setModal}/>
                                 </Col>
                             )
